@@ -39,7 +39,7 @@ namespace TestJenkins.API.Controllers
         [HttpGet("cv")]
         public int GetNumber()
         {
-            return 2;
+            return 3;
         }
     }
 }

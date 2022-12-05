@@ -35,5 +35,11 @@ namespace TestJenkins.API.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("cv")]
+        public int GetNumber()
+        {
+            return 1;
+        }
     }
 }

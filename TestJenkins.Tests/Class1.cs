@@ -11,7 +11,7 @@ namespace Tests
         public void TestOne()
         {
             var cv = new Something();
-            Assert.False(cv.GetSomething());/////////////////////////////////////////////////
+            Assert.True(cv.GetSomething());/////////////////////////////////////////////////
         }
     }
 }
